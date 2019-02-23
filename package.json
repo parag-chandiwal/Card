@@ -1,0 +1,39 @@
+{
+  "name": "chandiwal",
+  "version": "1.1.2",
+  "description": "A personal card for Parag Chandiwal (@chandiwalp)",
+  "main": "/bin/card.js",
+  "bin": {
+    "chandiwal": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parag-chandiwal/bcard"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Parag Chandiwal <parag@chandiwal.com> (http://chandiwal.com)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  }
+}
