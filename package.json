@@ -1,6 +1,6 @@
 {
   "name": "chandiwal",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A personal card for Parag Chandiwal (@chandiwalp)",
   "main": "/bin/card.js",
   "bin": {
