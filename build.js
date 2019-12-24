@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('       Parag Chandiwal'),
   handle: chalk.white('chandiwal'),
-  work: chalk.white('Data Analyst'),
+  work: chalk.white('Data Scientist!!!!'),
   opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('chandiwalp'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('chandiwal'),
